@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 	int x, i;
-	printf("Input an integer: ");
+	printf("Enter a number: ");
 	scanf("%d", &x);
 	printf("All the divisor of %d are: ", x);
 	for(i = 1; i <= x; i++) {
